@@ -27,6 +27,10 @@ class Welcome extends CI_Controller {
 		echo "Hello this is pavan";
 	}
 
+	public function modify() {
+		echo "Hello this is new modify";
+	}
+
 	public function newBranch() {
 		echo "Hello this is new branch";
 	}
